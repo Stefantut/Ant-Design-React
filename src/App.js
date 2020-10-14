@@ -1,15 +1,11 @@
 import React from "react";
-
-import "./App.css";
+import { DatePicker } from "antd";
+import "antd/dist/antd.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
+      <DatePicker />
     </div>
   );
 }
